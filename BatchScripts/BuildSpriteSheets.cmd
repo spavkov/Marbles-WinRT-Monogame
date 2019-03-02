@@ -1,0 +1,6 @@
+del d:\Projects\Vs2012\Test\MonoGame\MarblesGame\MarblesGameSolution\Art\Sheets\GameArt\GameArt.png
+del d:\Projects\Vs2012\Test\MonoGame\MarblesGame\MarblesGameSolution\Art\Sheets\GameArt\GameArt_sheets.txt
+d:\Dev\GameProg\SpriteSheetEditors\SpriteSheetPacker\sspack.exe /pad:2 /pow2 /image:"d:\Projects\Vs2012\Test\MonoGame\MarblesGame\MarblesGameSolution\Art\Sheets\GameArt\GameArt.png" /map:"d:\Projects\Vs2012\Test\MonoGame\MarblesGame\MarblesGameSolution\Art\Sheets\GameArt\GameArt_sheets.txt" /il:"d:\Projects\Vs2012\Test\MonoGame\MarblesGame\MarblesGameSolution\Art\Sheets\GameArt\GameArtImages.lst"
+copy d:\Projects\Vs2012\Test\MonoGame\MarblesGame\MarblesGameSolution\Art\Sheets\GameArt\GameArt.png d:\Projects\Vs2012\Test\MonoGame\MarblesGame\MarblesGameSolution\Content\GameContent\SpriteSheets\GameArt.png
+copy d:\Projects\Vs2012\Test\MonoGame\MarblesGame\MarblesGameSolution\Art\Sheets\GameArt\GameArt_sheets.txt d:\Projects\Vs2012\Test\MonoGame\MarblesGame\MarblesGameSolution\Content\GameContent\SpriteSheets\GameArt_sheets.txt
+pause

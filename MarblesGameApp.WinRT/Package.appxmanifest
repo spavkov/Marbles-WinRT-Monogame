@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="22588roboblob.Marbles" Publisher="CN=4F0A3365-BBE4-4516-B3D1-89677ECEF7F2" Version="1.0.0.19" />
+  <Properties>
+    <DisplayName>Marbles</DisplayName>
+    <PublisherDisplayName>roboblob</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="MarblesGameApp.WinRT.App">
+      <VisualElements DisplayName="Marbles" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Marbles" ForegroundText="light" BackgroundColor="#EF6F30">
+        <DefaultTile ShowName="allLogos" ShortName="Marbles" WideLogo="Assets\WideLogo.png" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#EF6F30" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
